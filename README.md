@@ -13,3 +13,28 @@ Using an home-grown ORM, the app has 3 basic CRUD functions...
   3. CREATE a new burger using the "Place Order" form, which...
     * hits a `/burger/create` route in Express to insert a new burger into the MySQL database
     * re-routes the webpage back to the index, where the burger is now ready to be eaten column (via Handlebars)
+   
+ ## Technologies Used 
+
+- Node.js
+- MySQL Workbench 
+- Node Packages (express, mysql, express-handlebars, body-parser)
+- Bootstrap
+
+## Installation
+
+To run the application locally, first clone this repository with the following command.
+
+	git clone https://github.com/khalidmadih/burger.git
+	
+Next, install the application dependencies.
+
+	npm install
+	
+Finally, run the node server locally.
+
+	node server
+	
+Now, open the local application on port 8080 at the URL: `http://localhost:8080/`.
+
+**Enjoy!**
