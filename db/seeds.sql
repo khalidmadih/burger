@@ -1,16 +1,7 @@
-INSERT INTO burgers (
-burger_name,
-devoured
-) VALUES
-(
-"Cheese Burger",
-0
-),
-(
-"Double Meat Burger",
-0
-),
-(
-"The House Burger",
-0
-);
+-- point to your burgers_db
+USE `burgers_db`;
+
+-- insert some burgers
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Big Mac', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Cheeseburger', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Double Meat Burger', false, CURRENT_TIMESTAMP);
